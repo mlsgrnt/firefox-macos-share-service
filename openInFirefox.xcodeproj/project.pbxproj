@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020CD6D620F3EA7900485B74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020CD6D520F3EA7900485B74 /* AppDelegate.swift */; };
+		020CD6D820F3EA7A00485B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020CD6D720F3EA7A00485B74 /* Assets.xcassets */; };
+		020CD6DB20F3EA7A00485B74 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020CD6D920F3EA7A00485B74 /* MainMenu.xib */; };
+		020CD6E420F3EACE00485B74 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020CD6E320F3EACE00485B74 /* ShareViewController.swift */; };
+		020CD6EC20F3EC3700485B74 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 020CD6EB20F3EC3700485B74 /* icon.icns */; };
+		020CD6EE20F3EC3700485B74 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020CD6ED20F3EC3700485B74 /* ShareViewController.swift */; };
+		020CD6F120F3EC3700485B74 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020CD6EF20F3EC3700485B74 /* ShareViewController.xib */; };
+		020CD6F620F3EC3700485B74 /* openIT.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 020CD6E920F3EC3700485B74 /* openIT.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		020CD6F420F3EC3700485B74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020CD6CA20F3EA7800485B74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 020CD6E820F3EC3700485B74;
+			remoteInfo = openIT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		020CD6FA20F3EC3700485B74 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				020CD6F620F3EC3700485B74 /* openIT.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		020CD6D220F3EA7800485B74 /* openInFirefox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openInFirefox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		020CD6D520F3EA7900485B74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		020CD6D720F3EA7A00485B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		020CD6DA20F3EA7A00485B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		020CD6DC20F3EA7A00485B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020CD6DD20F3EA7A00485B74 /* openInFirefox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = openInFirefox.entitlements; sourceTree = "<group>"; };
+		020CD6E320F3EACE00485B74 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		020CD6E920F3EC3700485B74 /* openIT.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = openIT.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		020CD6EB20F3EC3700485B74 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		020CD6ED20F3EC3700485B74 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		020CD6F020F3EC3700485B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShareViewController.xib; sourceTree = "<group>"; };
+		020CD6F220F3EC3700485B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020CD6F320F3EC3700485B74 /* openIT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = openIT.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		020CD6CF20F3EA7800485B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020CD6E620F3EC3700485B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020CD6C920F3EA7800485B74 = {
+			isa = PBXGroup;
+			children = (
+				020CD6D420F3EA7800485B74 /* openInFirefox */,
+				020CD6EA20F3EC3700485B74 /* openIT */,
+				020CD6D320F3EA7800485B74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		020CD6D320F3EA7800485B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				020CD6D220F3EA7800485B74 /* openInFirefox.app */,
+				020CD6E920F3EC3700485B74 /* openIT.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		020CD6D420F3EA7800485B74 /* openInFirefox */ = {
+			isa = PBXGroup;
+			children = (
+				020CD6D520F3EA7900485B74 /* AppDelegate.swift */,
+				020CD6D720F3EA7A00485B74 /* Assets.xcassets */,
+				020CD6D920F3EA7A00485B74 /* MainMenu.xib */,
+				020CD6DC20F3EA7A00485B74 /* Info.plist */,
+				020CD6E320F3EACE00485B74 /* ShareViewController.swift */,
+				020CD6DD20F3EA7A00485B74 /* openInFirefox.entitlements */,
+			);
+			path = openInFirefox;
+			sourceTree = "<group>";
+		};
+		020CD6EA20F3EC3700485B74 /* openIT */ = {
+			isa = PBXGroup;
+			children = (
+				020CD6EB20F3EC3700485B74 /* icon.icns */,
+				020CD6ED20F3EC3700485B74 /* ShareViewController.swift */,
+				020CD6EF20F3EC3700485B74 /* ShareViewController.xib */,
+				020CD6F220F3EC3700485B74 /* Info.plist */,
+				020CD6F320F3EC3700485B74 /* openIT.entitlements */,
+			);
+			path = openIT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		020CD6D120F3EA7800485B74 /* openInFirefox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020CD6E020F3EA7A00485B74 /* Build configuration list for PBXNativeTarget "openInFirefox" */;
+			buildPhases = (
+				020CD6CE20F3EA7800485B74 /* Sources */,
+				020CD6CF20F3EA7800485B74 /* Frameworks */,
+				020CD6D020F3EA7800485B74 /* Resources */,
+				020CD6FA20F3EC3700485B74 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				020CD6F520F3EC3700485B74 /* PBXTargetDependency */,
+			);
+			name = openInFirefox;
+			productName = openInFirefox;
+			productReference = 020CD6D220F3EA7800485B74 /* openInFirefox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		020CD6E820F3EC3700485B74 /* openIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020CD6F720F3EC3700485B74 /* Build configuration list for PBXNativeTarget "openIT" */;
+			buildPhases = (
+				020CD6E520F3EC3700485B74 /* Sources */,
+				020CD6E620F3EC3700485B74 /* Frameworks */,
+				020CD6E720F3EC3700485B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openIT;
+			productName = openIT;
+			productReference = 020CD6E920F3EC3700485B74 /* openIT.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		020CD6CA20F3EA7800485B74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Miles Grant";
+				TargetAttributes = {
+					020CD6D120F3EA7800485B74 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					020CD6E820F3EC3700485B74 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 020CD6CD20F3EA7800485B74 /* Build configuration list for PBXProject "openInFirefox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 020CD6C920F3EA7800485B74;
+			productRefGroup = 020CD6D320F3EA7800485B74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				020CD6D120F3EA7800485B74 /* openInFirefox */,
+				020CD6E820F3EC3700485B74 /* openIT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		020CD6D020F3EA7800485B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020CD6D820F3EA7A00485B74 /* Assets.xcassets in Resources */,
+				020CD6DB20F3EA7A00485B74 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020CD6E720F3EC3700485B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020CD6F120F3EC3700485B74 /* ShareViewController.xib in Resources */,
+				020CD6EC20F3EC3700485B74 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		020CD6CE20F3EA7800485B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020CD6E420F3EACE00485B74 /* ShareViewController.swift in Sources */,
+				020CD6D620F3EA7900485B74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020CD6E520F3EC3700485B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020CD6EE20F3EC3700485B74 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		020CD6F520F3EC3700485B74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 020CD6E820F3EC3700485B74 /* openIT */;
+			targetProxy = 020CD6F420F3EC3700485B74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		020CD6D920F3EA7A00485B74 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020CD6DA20F3EA7A00485B74 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		020CD6EF20F3EC3700485B74 /* ShareViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020CD6F020F3EC3700485B74 /* Base */,
+			);
+			name = ShareViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		020CD6DE20F3EA7A00485B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		020CD6DF20F3EA7A00485B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		020CD6E120F3EA7A00485B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = openInFirefox/openInFirefox.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = openInFirefox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miles.openInFirefox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		020CD6E220F3EA7A00485B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = openInFirefox/openInFirefox.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = openInFirefox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miles.openInFirefox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		020CD6F820F3EC3700485B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = openIT/openIT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = openIT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miles.openInFirefox.openIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		020CD6F920F3EC3700485B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = openIT/openIT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = openIT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miles.openInFirefox.openIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020CD6CD20F3EA7800485B74 /* Build configuration list for PBXProject "openInFirefox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020CD6DE20F3EA7A00485B74 /* Debug */,
+				020CD6DF20F3EA7A00485B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020CD6E020F3EA7A00485B74 /* Build configuration list for PBXNativeTarget "openInFirefox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020CD6E120F3EA7A00485B74 /* Debug */,
+				020CD6E220F3EA7A00485B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020CD6F720F3EC3700485B74 /* Build configuration list for PBXNativeTarget "openIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020CD6F820F3EC3700485B74 /* Debug */,
+				020CD6F920F3EC3700485B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 020CD6CA20F3EA7800485B74 /* Project object */;
+}
