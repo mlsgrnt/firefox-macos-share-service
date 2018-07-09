@@ -1,5 +1,5 @@
 # Open in Firefox share extension
-![screenshot](https://github.com/blydro/firefox-macos-share-service/raw/master/screenshot.png “Screenshot”)
+![screenshot](https://github.com/blydro/firefox-macos-share-service/raw/master/screenshot.png)
 
 ## What?
 The MacOS share menu is beautifully integrated into MacOS. Wouldn’t it be useful if all those buttons present in every good MacOS application had an option to open links in Firefox?
