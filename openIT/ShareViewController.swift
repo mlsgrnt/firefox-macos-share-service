@@ -2,8 +2,8 @@
 //  ShareViewController.swift
 //  openIT
 //
-//  Created by Miles Grant on 7/9/18.
-//  Copyright © 2018 Miles Grant. All rights reserved.
+//  Created by Blydro Klonk on 7/9/18.
+//  Copyright © 2018 Blydro Klonk. All rights reserved.
 //
 
 import Cocoa

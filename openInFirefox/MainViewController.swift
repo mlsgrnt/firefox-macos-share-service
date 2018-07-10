@@ -2,18 +2,17 @@
 //  ShareViewController.swift
 //  openInFirefox
 //
-//  Created by Miles Grant on 7/9/18.
-//  Copyright © 2018 Miles Grant. All rights reserved.
+//  Created by Blydro Klonk on 7/9/18.
+//  Copyright © 2018 Blydro Klonk. All rights reserved.
 //
 
 import Cocoa
 
-class ShareViewController: NSViewController {
+class MainViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
-        print("hi")
     }
     
 }
