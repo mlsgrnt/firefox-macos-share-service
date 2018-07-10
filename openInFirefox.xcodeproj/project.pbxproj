@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		020CD6D620F3EA7900485B74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020CD6D520F3EA7900485B74 /* AppDelegate.swift */; };
 		020CD6D820F3EA7A00485B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020CD6D720F3EA7A00485B74 /* Assets.xcassets */; };
-		020CD6DB20F3EA7A00485B74 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020CD6D920F3EA7A00485B74 /* MainMenu.xib */; };
-		020CD6E420F3EACE00485B74 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020CD6E320F3EACE00485B74 /* MainViewController.swift */; };
 		020CD6EC20F3EC3700485B74 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 020CD6EB20F3EC3700485B74 /* icon.icns */; };
 		020CD6EE20F3EC3700485B74 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020CD6ED20F3EC3700485B74 /* ShareViewController.swift */; };
 		020CD6F120F3EC3700485B74 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020CD6EF20F3EC3700485B74 /* ShareViewController.xib */; };
@@ -45,10 +43,8 @@
 		020CD6D220F3EA7800485B74 /* openInFirefox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openInFirefox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		020CD6D520F3EA7900485B74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		020CD6D720F3EA7A00485B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		020CD6DA20F3EA7A00485B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		020CD6DC20F3EA7A00485B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		020CD6DD20F3EA7A00485B74 /* openInFirefox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = openInFirefox.entitlements; sourceTree = "<group>"; };
-		020CD6E320F3EACE00485B74 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		020CD6E920F3EC3700485B74 /* openIT.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = openIT.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		020CD6EB20F3EC3700485B74 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		020CD6ED20F3EC3700485B74 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
@@ -98,9 +94,7 @@
 			children = (
 				020CD6D520F3EA7900485B74 /* AppDelegate.swift */,
 				020CD6D720F3EA7A00485B74 /* Assets.xcassets */,
-				020CD6D920F3EA7A00485B74 /* MainMenu.xib */,
 				020CD6DC20F3EA7A00485B74 /* Info.plist */,
-				020CD6E320F3EACE00485B74 /* MainViewController.swift */,
 				020CD6DD20F3EA7A00485B74 /* openInFirefox.entitlements */,
 			);
 			path = openInFirefox;
@@ -200,7 +194,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				020CD6D820F3EA7A00485B74 /* Assets.xcassets in Resources */,
-				020CD6DB20F3EA7A00485B74 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +213,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				020CD6E420F3EACE00485B74 /* MainViewController.swift in Sources */,
 				020CD6D620F3EA7900485B74 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +236,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		020CD6D920F3EA7A00485B74 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				020CD6DA20F3EA7A00485B74 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
 		020CD6EF20F3EC3700485B74 /* ShareViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
