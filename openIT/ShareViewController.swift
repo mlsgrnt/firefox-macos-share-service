@@ -9,7 +9,10 @@
 import Cocoa
 
 class ShareViewController: NSViewController {
-
+    @IBOutlet weak var boxTitle: NSTextField!
+    @IBOutlet weak var errorMessage: NSTextField!
+    @IBOutlet weak var errorAcceptButton: NSButton!
+    
     override var nibName: NSNib.Name? {
         return NSNib.Name("ShareViewController")
     }
@@ -23,7 +26,7 @@ class ShareViewController: NSViewController {
             let attachedUrl = (attachments[0] as! NSItemProvider)
             attachedUrl.loadItem(forTypeIdentifier: "public.url", options: nil, completionHandler: { (attachedUrl, error) in
                 guard let url = attachedUrl as? NSURL else {
-                    print(attachedUrl)
+                    print(attachedUrl as Any)
                     print("oh no")
                     return
                 }
@@ -38,16 +41,11 @@ class ShareViewController: NSViewController {
             })
         } else {
             NSLog("No Attachments")
+            errorMessage.isHidden = false
+            errorAcceptButton.isHidden = false
+            
         }
     }
-
-    @IBAction func send(_ sender: AnyObject?) {
-        let outputItem = NSExtensionItem()
-        // Complete implementation by setting the appropriate value on the output item
-    
-        let outputItems = [outputItem]
-        self.extensionContext!.completeRequest(returningItems: outputItems, completionHandler: nil)
-}
 
     @IBAction func cancel(_ sender: AnyObject?) {
         let cancelError = NSError(domain: NSCocoaErrorDomain, code: NSUserCancelledError, userInfo: nil)
